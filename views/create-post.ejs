@@ -1,0 +1,17 @@
+<%- include('includes/header') %>  
+    <!-- BODY PART  -->
+    <div class="container py-md-5 container--narrow">
+        <form action="/create-post" method="POST">
+            <div class="form-group">
+                <label for="post-title" class="text-muted mb-1">Title</label>
+                <input type="text" name="title" id="post-title" class="form-control form-control-lg form-control-title" placeholder="Enter your title here" required>
+            </div>
+            <div class="form-group">
+                <label for="post-body" class="text-muted mb-1">Developer Content</label>
+                <textarea type="text" name="body" id="post-body" class="form-control tall-textarea body-content" placeholder="Enter your description here" required></textarea>
+            </div>
+            <button class="btn btn-info">Publish Post</button>
+        </form>
+    </div>
+
+<%- include('includes/footer') %>  
