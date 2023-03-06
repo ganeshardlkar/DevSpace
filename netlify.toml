@@ -2,7 +2,9 @@
   publish = "build"
   command = "echo 'default context'"
 
-// [[redirects]]
-// from ="/*"
-// to = "db.js"
-// status 200
+/*
+[[redirects]]
+from ="/*"
+to = "db.js"
+status 200
+*/
