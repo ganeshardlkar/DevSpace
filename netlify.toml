@@ -1,4 +1,8 @@
-[[redirects]]
-from ="/*"
-to = "db.js"
-status 200
+[build]
+  publish = "build"
+  command = "echo 'default context'"
+
+// [[redirects]]
+// from ="/*"
+// to = "db.js"
+// status 200
